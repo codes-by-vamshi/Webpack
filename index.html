@@ -6,11 +6,14 @@
 </head>
 <body>
 
-     <!-- this dont work because index.js is referrong a function from hello-world.js because order of js scripts is important -->
+    <!-- this dont work because index.js is referrong a function from hello-world.js because order of js scripts is important -->
     <!-- <script src="./src/index.js"></script>
     <script src="./src/hello-world.js"></script> -->
     
-    <script src="./src/hello-world.js"></script>
+    <!-- this will work as the dependency is resolved by order-->
+    <!-- <script src="./src/hello-world.js"></script>
+    <script src="./src/index.js"></script> -->
+
     <script src="./src/index.js"></script>
 </body>
 </html>
